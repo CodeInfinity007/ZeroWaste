@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrganicWasteFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="19dp"
+                android:drawableRight="@drawable/banana"
+                android:fontFamily="@font/headland_one"
+                android:text="What is Organic Waste?"
+                android:textColor="#F609F2"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="385dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/audiowide"
+                android:text="Organic waste, or biodegradable waste, is a natural refuse type that comes from plants or animals. It comes in manifold forms – biodegradable plastics, food waste, green waste, paper waste, manure, human waste, sewage, and slaughterhouse waste."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/headland_one"
+                android:text="How to Recycle?"
+                android:textColor="#1E6849"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/compost_butt"
+                android:layout_width="311dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="10dp"
+                android:drawableLeft="@drawable/composting_icon"
+                android:drawableRight="@drawable/vermi_icon"
+                android:fontFamily="@font/autour_one"
+                android:text="Composting"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:theme="@style/ButtonTheme"
+                app:cornerRadius="100dp" />
+
+            <Button
+                android:id="@+id/animal_feed_butt"
+                android:layout_width="311dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="10dp"
+                android:drawableLeft="@drawable/animal_feed_icon"
+                android:drawableRight="@drawable/plus"
+                android:fontFamily="@font/autour_one"
+                android:text="Animal Feed"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:theme="@style/ButtonTheme"
+                app:cornerRadius="100dp" />
+
+            <include
+                android:id="@+id/animal_feed_content"
+                layout="@layout/animal_feed" />
+
+            <Button
+                android:id="@+id/rendering_butt"
+                android:layout_width="311dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="10dp"
+                android:drawableLeft="@drawable/rendering_icon"
+                android:drawableRight="@drawable/plus"
+                android:fontFamily="@font/autour_one"
+                android:text="Rendering"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:theme="@style/ButtonTheme"
+                app:cornerRadius="100dp" />
+
+            <include
+                android:id="@+id/rendering_content"
+                layout="@layout/rendering_content" />
+
+            <Button
+                android:id="@+id/fermentation_butt"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_marginStart="10dp"
+                android:drawableLeft="@drawable/fermentation_icon"
+                android:fontFamily="@font/autour_one"
+                android:text="Rapid Fermentation"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:theme="@style/ButtonTheme"
+                app:cornerRadius="100dp" />
+
+            <TextView
+                android:id="@+id/fermentation_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/fermentation_link"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/headland_one"
+                android:text="General Guide"
+                android:textColor="#1E6849"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="136dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="271dp"
+                android:fontFamily="@font/artifika"
+                android:text="1. Collection"
+                android:textColor="#FF4A03"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="208dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="271dp"
+                android:fontFamily="@font/artifika"
+                android:text="2. Decontamination"
+                android:textColor="#FF4A03"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="294dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="271dp"
+                android:fontFamily="@font/artifika"
+                android:text="3. Preparation        Scroll!"
+                android:textColor="#FF4A03"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/elevated_text_props"
+                        android:drawableTop="@drawable/hosting"
+                        android:elevation="10dp"
+                        android:fontFamily="@font/autour_one"
+                        android:padding="5dp"
+                        android:text="Collect, manage and move small amounts of your waste at a time at site of recycling."
+                        android:textAlignment="center"
+                        android:textColor="#1B307E"
+                        android:textSize="16sp"
+                        android:drawablePadding="2dp"/>
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/elevated_text_props"
+                        android:drawableTop="@drawable/decontamination"
+                        android:elevation="10dp"
+                        android:fontFamily="@font/autour_one"
+                        android:padding="5dp"
+                        android:text="Non-biodegradable substances obtained from industries should be removed during this step."
+                        android:textAlignment="center"
+                        android:textColor="#1B307E"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/elevated_text_props"
+                        android:drawableTop="@drawable/preparation"
+                        android:elevation="10dp"
+                        android:fontFamily="@font/autour_one"
+                        android:padding="5dp"
+                        android:text="Depends on the type of recycling method chosed.\nSome require a period of stabilization prior to recycling, some requires shredding."
+                        android:textAlignment="center"
+                        android:textColor="#1B307E"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
+
+

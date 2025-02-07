@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/organicWasteFragment"
+        android:title="Organic Waste"
+        android:icon="@drawable/organic_icon"
+        />
+    <item
+        android:id="@+id/liquid_waste_page"
+        android:title="Liquid Waste"
+        android:icon="@drawable/liquid_waste_icon"
+         />
+    <item
+        android:id="@+id/hazardous_waste_page"
+        android:title="Hazardous Waste"
+        android:icon="@drawable/hazardous_icon"
+        />
+</menu>

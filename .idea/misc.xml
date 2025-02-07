@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programs/AndroidStudioProjects/app/src/main/res/drawable/baseback.xml" value="0.2552083333333333" />
+        <entry key="..\:/Programs/AndroidStudioProjects/app/src/main/res/drawable/baseroundcode.xml" value="0.2552083333333333" />
+        <entry key="..\:/Programs/AndroidStudioProjects/app/src/main/res/drawable/layout_extra_prop.xml" value="0.14756944444444445" />
+        <entry key="..\:/Programs/AndroidStudioProjects/app/src/main/res/drawable/topimage.xml" value="0.3828125" />
+        <entry key="..\:/Programs/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Programs/AndroidStudioProjects/app/src/main/res/layout/header.xml" value="0.24444444444444444" />
+        <entry key="..\:/Programs/AndroidStudioProjects/app/src/main/res/menu/main_menu.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/drawable-v24/round_corner.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/drawable/bacground.xml" value="0.26875" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/drawable/baseback.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/drawable/elevated_text_props.xml" value="0.24791666666666667" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/drawable/layout_extra_prop.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/drawable/topimage.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/activity_composting_page.xml" value="0.25" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/activity_hazardous_waste_page.xml" value="0.33" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/activity_liquid_waste_page.xml" value="0.25" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/activity_organic_waste_page.xml" value="0.25" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/activity_recycle_page.xml" value="0.25" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/activity_reduce_page.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/activity_repurpose_page.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/activity_reuse_page.xml" value="0.25" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/animal_feed.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/app_bar_main.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/background.xml" value="0.25798611111111114" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/basic_composting.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/fragment_blank.xml" value="0.25069444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/fragment_blank2.xml" value="0.25069444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/fragment_organic_waste.xml" value="0.25069444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/fragment_recycle.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/main_page.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/nav_header.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/organic_waste_fragment_page.xml" value="0.23715277777777777" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/recycle_content.xml" value="0.23715277777777777" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/layout/rendering_content.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/menu/menu_recycle_page.xml" value="0.25069444444444444" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/menu/nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Divya/AndroidStudioProjects/ZeroWaste/app/src/main/res/mipmap-anydpi-v26/topimage.xml" value="0.2552083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

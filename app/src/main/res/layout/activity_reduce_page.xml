@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReducePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/headland_one"
+            android:text="Reducing Waste"
+            android:textColor="#F609F2"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/reduce_head_icon"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:fontFamily="@font/audiowide"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="385dp"
+            android:text="The concept of reducing what is produced and what is consumed is essential to the waste hierarchy. The logic behind it is simple to understand – if there is less waste, then there is less to recycle or reuse."
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/headland_one"
+            android:text="Guidelines to reduce:"
+            android:textColor="#880672"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableRight="@drawable/think"
+            android:fontFamily="@font/headland_one"
+            android:text="1. Is this the right one:"
+            android:textColor="#1E6849"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="-->Using multi-use items is essential to beginning reduction.\n\n-->The purchase of one item means that you don’t use two. It reduces the amount of production and the amount of waste packaging material that will be generated."
+            android:textColor="#1B307E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/headland_one"
+            android:drawableRight="@drawable/stop"
+            android:text="2. Do you really need that:"
+            android:textColor="#1E6849"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="-->There is a limit to what you would need in your life i.e. dont buy unnecessary things.\n\n-->This encourages production, wastes your resources and creates more generative waste than you can imagine."
+            android:textColor="#1B307E"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/headland_one"
+            android:text="3. Some more points:"
+            android:textColor="#1E6849"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="1. Print on both sides of the paper to reduce paper wastage.\n\n2. Use electronic mail to reach out to people instead of sending paper mail.\n\n3. Use cloth napkins instead of paper napkins.\n\n4. Avoid using disposable plates, spoons, glass, cups and napkins.\n\n5. Avoid buying items that are over-packaged with foil, paper, and plastic. This excess packaging goes to waste.\n\n6. Buy durable goods, they generally last longer\n\n7. Purchase multi-tasking products that perform different kinds of jobs in one.\n\n8. If something doesn’t have a valid purpose or real use anymore, then it adds to your waste. If you’re not using any item for a long time, it’s time to put it away."
+            android:textColor="#612A98"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

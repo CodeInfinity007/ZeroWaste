@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hazardous_waste_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="381dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/headland_one"
+            android:text="What is Hazardous Waste?"
+            android:textColor="#F609F2"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:drawableRightCompat="@drawable/hazardous_top_icon" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/audiowide"
+            android:text="-->Hazardous waste includes all types of things that are flammable, toxic, corrosive and reactive.\n\n-->These items can harm you as well as the environment and must be disposed of correctly. Therefore, it is recommended to make use of a waste removal company for proper disposal of all hazardous waste."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/headland_one"
+            android:text="Guidelines"
+            android:textColor="#1E6849"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="-->Follow any instructions for use, storage and disposing provided on product labels carefully to prevent any accidents at home.\n\n-->Never store hazardous products in food containers; keep them in their original containers and never remove labels.\n\n-->When leftovers remain, never mix HHW with other products. Incompatible products might react, ignite, or explode, and contaminated HHW might become unrecyclable.\n\n-->Remember, even empty containers of HHW can pose hazards because of the residual chemicals that might remain so handle them with care also."
+            android:textColor="#1B307E"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

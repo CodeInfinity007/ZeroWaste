@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".liquid_waste_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="19dp"
+            android:drawableRight="@drawable/splash"
+            android:fontFamily="@font/headland_one"
+            android:text="What is Liquid Waste?"
+            android:textColor="#F609F2"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/autour_one"
+            android:text="Liquid waste is commonly found both in households as well as in industries. This waste includes dirty water, organic liquids, wash water, waste detergents and even rainwater."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/headland_one"
+            android:text="How to Recycle?"
+            android:textColor="#1E6849"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/dewatering_butt"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/dewatering_icon"
+            android:fontFamily="@font/autour_one"
+            android:text="Dewatering"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:theme="@style/ButtonTheme"
+            app:cornerRadius="100dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="-->In this process, the water from the liquid waste is removed until only solid waste remains.\n\n-->The solid waste is then disposed of, while the water can be recycled and used again.\n\n-->For physically distinguishable components of the liquid waste, centrifugation can be used.\n\n-->Sludges and slurry wastes can be filtered out using belt filter presses that separates the water. This sludge is then pressed to force out any remaining water."
+            android:textSize="16sp"
+            android:textColor="#1B307E"/>
+
+        <Button
+            android:id="@+id/sedimentation_butt"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:theme="@style/ButtonTheme"
+            android:drawableLeft="@drawable/sedementation_icon"
+            android:fontFamily="@font/autour_one"
+            android:text="Sedimentation"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="100dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="-->Sedimentation is a simple process that doesn’t require high-end equipment.\n\n-->It makes use of gravity to separate the solid wastes from the liquid.\n\n-->The liquid is left undisturbed in a large tank called a sedimentation basin, where the solid waste settles down due to the difference in density, while the lower density contaminants such as oil and grease rise to the top.\n\n-->Once this process is completed, the wastes are carefully removed and the water can be recycled further for usage, while the wastes can be safely disposed of."
+            android:textColor="#1B307E"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/incineration_butt"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:theme="@style/ButtonTheme"
+            android:drawableLeft="@drawable/incineration_icon"
+            android:fontFamily="@font/autour_one"
+            android:text="Incineration"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="100dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="-->Incineration can be used for the disposal of hazardous waste such as chemicals, scrap metals, acids and bases in water and liquids.\n\n-->In this process, the liquid waste is incinerated in combustion chambers at extremely high temperatures, creating hot gases and ashes. The ash residue can be discarded while the gases can undergo treatment and be let out into the environment. The heat energy from the gases can also be extracted for domestic or industrial use, such as cooking or supplying power to turbines. The water that is left behind is free of contaminants and suitable for usage."
+            android:textColor="#1B307E"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/root_zone_butt"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:theme="@style/ButtonTheme"
+            android:drawableLeft="@drawable/root_icon"
+            android:fontFamily="@font/autour_one"
+            android:text="Root Zone"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="100dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="-->This waste disposal method uses both biological and physical processes for the treatment of water. It is slightly complicated and expensive but recycles the water completely, making it safe to be released into the environment again.\n\n-->The water undergoes treatment in various stages- pre-treatment in a settler, first treatment in an anaerobic baffled reactor, second treatment in an anaerobic filter, and third treatment in a planted gravel filter.\n\n-->Root zone method requires minimal external energy since it majorly depends on gravity. It also doesn’t require regular maintenance."
+            android:textColor="#1B307E"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

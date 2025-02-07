@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".composting_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="19dp"
+            android:drawableRight="@drawable/banana"
+            android:fontFamily="@font/headland_one"
+            android:text="What is Composting?"
+            android:textColor="#F609F2"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/audiowide"
+            android:text="Composting is the natural process of recycling organic matter, such as leaves and food scraps, into a valuable fertilizer that can enrich soil and plants.\n\nThe resulting decomposed matter, which often ends up looking like fertile garden soil, is called compost."
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/headland_one"
+            android:text="How to?"
+            android:textColor="#888606"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/basic_method_butt"
+            android:layout_width="311dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/composting_icon"
+            android:drawableRight="@drawable/plus"
+            android:fontFamily="@font/autour_one"
+            android:text="Basic Composting"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:theme="@style/ButtonTheme"
+            app:cornerRadius="100dp" />
+
+        <include
+            android:id="@+id/basic_method_content"
+            layout="@layout/basic_composting" />
+
+
+        <Button
+            android:id="@+id/trench_method_butt"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/trench_icon"
+            android:drawableRight="@drawable/plus"
+            android:fontFamily="@font/autour_one"
+            android:text="Trench Composting"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:theme="@style/ButtonTheme"
+            app:cornerRadius="100dp" />
+
+
+        <TextView
+            android:id="@+id/trench_compost_content"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="Another Method is to directly bury the waste in the soil.\n\nOne of the benefits of trenching is that it allows you to compost small amounts of cooked food waste, including meat, grains, and dairy, because animals and insects are less likely to be attracted to the material if it is buried deep underground. If you do decide to compost animal products, be sure to cover them with 12 to 18 inches of soil."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/vermi_method_butt"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/vermi_icon"
+            android:drawableRight="@drawable/plus"
+            android:fontFamily="@font/autour_one"
+            android:text="Vermi Composting"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:theme="@style/ButtonTheme"
+            app:cornerRadius="100dp" />
+
+
+        <FrameLayout
+            android:id="@+id/vermi_compost_content"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="351dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:srcCompat="@mipmap/vermi_diag" />
+
+
+                <TextView
+                    android:id="@+id/vermi_compost_content1"
+                    android:layout_width="378dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/elevated_text_props"
+                    android:elevation="3dp"
+                    android:fontFamily="@font/autour_one"
+                    android:text="Vermicomposting, or worm composting, is a great option if space is limited. Vermicomposting produces natural, odorless, nutrient-rich fertilizer with very little maintenance. The most significant time commitment is harvesting it every few months."
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/vermi_compost_content2"
+                    android:layout_width="378dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/elevated_text_props"
+                    android:elevation="3dp"
+                    android:fontFamily="@font/autour_one"
+                    android:text="The composter needs to be raised off the ground for excess liquids to flow out. A simple setup for worm composting is to place a taller plastic bin inside a shorter one. Then you have to add worm bedding and some soil. Bedding should be of carbon-heavy material to hold the right amount of air and moisture for the worms."
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/vermi_compost_content3"
+                    android:layout_width="378dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/elevated_text_props"
+                    android:elevation="3dp"
+                    android:fontFamily="@font/autour_one"
+                    android:text="Some common materials for bedding are: Shredded paper or cardboard, dry leaves, straw. Worms need to be fed once a week by burying the food waste under their bedding. Ideal food includes fruit and vegetable scraps, bread, coffee grounds and used tea leaves. The best types of worms to be used are red wigglers."
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

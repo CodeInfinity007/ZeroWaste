@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrganicWasteFragment">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/audiowide"
+            android:id="@+id/textView1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="385dp"
+            android:text="Rendering is a process that converts waste animal tissue into stable, usable materials. Rendering can refer to any processing of animal products into more useful materials, or, more narrowly, to the rendering of whole animal fatty tissue into purified fats like lard or tallow."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/headland_one"
+            android:elevation="10dp"
+            android:background="@drawable/elevated_text_props"
+            android:text="For Edible Waste:"
+            android:textColor="#1E6849"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="The process usually consists of finely chopping the edible fat (meat), heating them, and then carrying out stages of centrifugal separation.\n\n-->The first and second stage separates the water and fat mixture from the solids by different methods.\n\nThe solids and the separated fat may be used in food products, or if in surplus, may be diverted to soap making operations."
+            android:textColor="#1B307E"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/headland_one"
+            android:elevation="10dp"
+            android:background="@drawable/elevated_text_props"
+            android:text="For Inedible Waste:"
+            android:textColor="#1E6849"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="-->The process is to heat the material in a steam covered vessel to drive off the moisture and simultaneously release the fat from the fat cells. The material is first ground, then heated to release the fat and drive off the moisture, percolated to drain off the free fat, and then more fat is pressed out of the solids"
+            android:textColor="#1B307E"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".composting_page">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+
+            android:fontFamily="@font/headland_one"
+            android:text="Things You need:"
+            android:textColor="#880672"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="10dp"
+            android:background="@drawable/elevated_text_props"
+            android:drawableRight="@drawable/greens_icon"
+            android:fontFamily="@font/headland_one"
+            android:text="Greens for Nitrogen"
+            android:textColor="#1D513B"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp"
+
+            android:fontFamily="@font/autour_one"
+            android:text="A higher nitrogen-to-carbon ratio is mostly found in fresh organic material (referred as greens).\n\nPlenty of greens in your compost pile ensures that the decomposers can grow and reproduce quickly.\n\nSome household greens you can add in your pile are fresh grass clippings, food scraps, and coffee grounds."
+            android:textColor="#1E6849"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="10dp"
+            android:background="@drawable/elevated_text_props"
+            android:drawableRight="@drawable/browns_icon"
+            android:fontFamily="@font/headland_one"
+            android:text="Browns for Carbon"
+            android:textColor="#6F3801"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="Carbon acts as a food source for decomposers, keeping them alive while they work. Browns you can add to a compost pile include dead leaves, branches, twigs, and paper."
+            android:textColor="#A55301"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:elevation="10dp"
+            android:background="@drawable/elevated_text_props"
+            android:fontFamily="@font/headland_one"
+            android:text="Oxygen and Water"
+            android:drawableRight="@drawable/sea"
+            android:textColor="#2C3C76"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/autour_one"
+            android:text="To ensure a faster home composting process, the right amount of air and water is a need.\n\nOptimal air flow can be achieved by layering materials, making sure your materials are in small pieces (ideally no thicker than a finger), and turning piles regularly.\n\nIf you are including food waste in your pile, it’s likely it will be wet enough, if not, just add water."
+            android:textColor="#2767D1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="10dp"
+            android:background="@drawable/elevated_text_props"
+            android:fontFamily="@font/headland_one"
+            android:text="What Bin?"
+            android:textColor="#880672"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/autour_one"
+            android:text="You can choose Open Bin if you are looking for less maintenance and are willing to give it time.\n\nThe Basic Advantage of Closed Bin is that they  have an open bottom and you place the bin directly on a patch of soil."
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

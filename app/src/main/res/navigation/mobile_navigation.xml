@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/OrganicWasteFragment">
+
+
+    <fragment
+        android:id="@+id/OrganicWasteFragment"
+        android:name="com.dmat.zerowaste.OrganicWasteFragment"
+        android:label="organic_waste_fragment_page"
+        tools:layout="@layout/organic_waste_fragment_page" />
+    <fragment
+        android:id="@+id/liquid_waste_page"
+        android:name="com.dmat.zerowaste.liquid_waste_page"
+        android:label="activity_liquid_waste_page"
+        tools:layout="@layout/activity_liquid_waste_page" />
+    <fragment
+        android:id="@+id/hazardous_waste_page"
+        android:name="com.dmat.zerowaste.hazardous_waste_page"
+        android:label="activity_hazardous_waste_page"
+        tools:layout="@layout/activity_hazardous_waste_page" />
+</navigation>

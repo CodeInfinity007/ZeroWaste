@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dmat.zerowaste">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/zero_waste_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/zero_waste_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ZeroWaste">
+        <activity
+            android:name=".RepurposePage"
+            android:exported="true"
+            android:parentActivityName="com.dmat.zerowaste.MainActivity"/>
+        <activity
+            android:name=".ReusePage"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ReducePage"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".composting_page"
+            android:exported="true"
+            android:parentActivityName=".OrganicWastePage2" />
+        <activity
+            android:name=".hazardous_waste_page"
+            android:exported="true"
+            android:parentActivityName=".RecyclePage"/>
+        <activity
+            android:name=".liquid_waste_page"
+            android:exported="true"
+            android:parentActivityName=".RecyclePage"/>
+        <activity
+            android:name=".OrganicWastePage2"
+            android:exported="true"
+            android:parentActivityName=".RecyclePage" />
+        <activity
+            android:name=".RecyclePage"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
